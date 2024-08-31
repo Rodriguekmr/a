@@ -22,25 +22,30 @@ nav a {
     align-items: 0px;
     justify-content: center;
     margin-bottom: 5px;
+    justify-content: center;
+   
+    
 }
 .section-a {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 120vh;
+    height: auto;
     box-sizing: border-box;
     width: 100%;
-    padding: 100px;
+    margin: 0 auto;
+    padding: 20px; 
 }
 
 .background {
-    width: 100%;
-    height: 100vh;
+    width: auto;
+    height: auto;
     background-color: rgb(248, 248, 248);
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 form section {
     width: 100%;
@@ -115,10 +120,10 @@ caption {
 caption, .courses, .programs {
     text-align: center;
 }
-.body-media{
+.body-media {
     display: flex;
-    height: 80%;
-    margin: 10px 20px;
+    height: auto;
+    margin: 0 auto;
     flex-direction: column;
     justify-content: center; 
     align-items: center; 
@@ -135,8 +140,9 @@ caption, .courses, .programs {
     height: 300px;
 }
 .website {
-    width: 600px;
+    width: 400px;
     height: 600px;
+    margin: auto;
 }
 @media (max-width: 768px) {
     .flex {
@@ -145,7 +151,7 @@ caption, .courses, .programs {
 }
 .youtube-videos {
     display: flex;
-    height: 100%; 
+    height: auto; 
     width: auto;
     flex-direction: column;
     gap: 15px;
